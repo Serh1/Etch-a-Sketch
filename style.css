@@ -1,0 +1,164 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+    --bg-color: #5CAB7D;
+    --primary-dark: #44633F;
+    --secondary-dark: #CDE7B0;
+}
+
+
+* {
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    /*outline: 1px solid limegreen !important;*/
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+/*HEADER*/
+.header {
+    padding-top: 10px;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+
+/*MAIN*/
+.main{
+    display: block;
+    text-align: center;
+    gap: 100px;
+}
+
+.container-buttons{
+    margin: 0.2rem;
+    text-align: center;
+}
+.btn{
+    display: inline;
+    border-radius: 20px;
+    border: 1px;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    background-color: var(--primary-dark);
+    padding: .4rem;
+    width: 100px;
+    height: 50px    ;
+    margin: 0.5rem;
+    color: white;
+}
+
+
+
+.btn:hover,
+input[type='color']:hover{
+    transform: scale(1.1);
+}
+.container-wrapper {
+    max-width: 1100px;
+    height: 510px;
+    width: 100%;
+    margin: 2px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.container-cells{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.square-cell {
+    user-select: none;
+    background-color: white;
+}
+
+.slider-wrapper{
+    width: 100%;
+    margin: 1px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slidecontainer {
+    width: 500px;
+    margin: 0.5rem;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: white;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--primary-dark);
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--primary-dark);
+    cursor: pointer;
+}
+
+.size-value{
+    color: white;
+}
+
+/*FOOTER*/
+
+.footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.icon{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.icon:hover{
+    color: var(--primary-dark);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
