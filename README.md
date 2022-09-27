@@ -1,7 +1,7 @@
 # Etch-a-Sketch
 
 ## This project is part of the 'The Odin Project' curriculum.
-### Live Demo: https://serh1.github.io/Etch-a-Sketch/
+### Live Demo: https://serh1.github.io/etch-a-sketch/
 - The project is illustrating facilities of JavaScript DOM.
 - Generating the grid using DOM functions in a for loop
 
